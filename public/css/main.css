@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Circular;
+    src: url('../fonts/Circular_Std_Font.otf');
+}
+
+:root {
+    font-family: Circular, sans-serif;
+}
+
+body {
+    height: 10000px;
+}
+
+nav.navbar .navbar-nav .nav-item .nav-link  {
+    font-weight: 400;
+    color: #0b1423;
+}
+nav.navbar .navbar-nav .nav-item .nav-link.active  {
+    color: #00509d;
+}
