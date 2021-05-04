@@ -18,3 +18,85 @@ nav.navbar .navbar-nav .nav-item .nav-link  {
 nav.navbar .navbar-nav .nav-item .nav-link.active  {
     color: #00509d;
 }
+
+nav.navbar {
+    box-shadow: 0 2px 2px -2px rgba(105, 84, 84, 0.2);
+    height: 80px;
+}
+
+.banner_title {
+    color: #0b1423;
+}
+
+.banner_title h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+}
+
+.banner_title h1 .orange {
+    color: #fd7028;
+}
+
+.banner_title h4 {
+    /* font-size: 3.125rem; */
+    font-weight: 500;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+}
+
+.banner_title h4 .green {
+    font-size: 1.3em;
+    color: #038570;
+}
+
+.counter .icon {
+    border: 1px solid #edeef1;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.body__content h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.body__content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b1423;
+    margin-bottom: .625rem;
+}
+
+.body__content p {
+    font-size: 16px;
+    color: #4f5963;
+}
+
+.pt-7 {
+    padding-top: 7.5rem!important;
+}
+
+.title_sections span {
+    color: #0b1423;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.title_sections span:last-child {
+    color: #00509d;
+}
+
+.btn-green {
+    background-color: #31d1ab;
+}
+.mt-7 {
+    margin-top: 7rem !important;
+}
