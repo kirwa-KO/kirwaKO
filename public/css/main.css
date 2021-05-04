@@ -142,7 +142,8 @@ nav.navbar {
     font-weight: 300;
 }
 
-.swiper-slide {
-    width: 109px !important;
-    margin-right: 34px;
+
+.swiper-button-prev:after,
+.swiper-button-next::after {
+    color: rgba(11,20,35,.05);
 }
