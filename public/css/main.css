@@ -7,9 +7,6 @@
  font-family: Circular, sans-serif;
 }
 
-body {
- height: 10000px;
-}
 
 nav.navbar .navbar-nav .nav-item .nav-link {
  font-weight: 400;
@@ -205,5 +202,64 @@ a.text-blue:hover {
 
 .footer-icons i {
     font-size: 2em;
-    color: white;
 }
+
+.footer-icons a {
+   margin-right: 3rem !important;
+}
+
+.btn-social {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #0b1423;
+    border: 1px solid transparent;
+    transition: .35s !important;
+}
+
+a.btn-social:hover {
+    text-decoration: none;
+}
+
+.btn-social.color-facebook {
+    color: #1877f2 !important;
+}
+
+.btn-social.color-facebook:hover {
+    background-color: #1877f2;
+    color: #fefefe !important;
+}
+
+.btn-social.color-instagram {
+    color: #c32aa3 !important;
+}
+
+.btn-social.color-instagram:hover {
+    background-color: #c32aa3;
+    color: #fefefe !important;
+}
+
+.btn-social.color-linkedin,
+.btn-social.color-github {
+    color: #007bb5 !important;
+}
+
+.btn-social.color-linkedin:hover,
+.btn-social.color-github:hover {
+    background-color: #007bb5;
+    color: #fefefe !important;
+}
+
+
+.btn-social.color-figma {
+    color: #ee1d52 !important;
+}
+
+.btn-social.color-figma:hover {
+    background-color: #ee1d52;
+    color: #fefefe !important;
+}
+
