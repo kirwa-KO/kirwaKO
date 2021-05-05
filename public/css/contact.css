@@ -48,7 +48,7 @@ input.form-control {
     text-decoration: none;
 }
 
-.btn-social {
+.btn-social.contact-page {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -57,11 +57,11 @@ input.form-control {
     transition: .3s!important;
 }
 
-.btn-social i {
+.btn-social.contact-page i {
     font-size: 2rem;
 }
 
-.btn-social:hover {
+.btn-social.contact-page:hover {
     background-color: #f93542;
     color: #f7f8fa;
 }
