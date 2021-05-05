@@ -147,3 +147,63 @@ nav.navbar {
 .swiper-button-next::after {
     color: rgba(11,20,35,.05);
 }
+
+.text-dark {
+    color: #343a40;
+    font-weight: 700;
+}
+
+.text-blue {
+    color: #00509d !important;
+}
+a.text-blue:hover {
+    text-decoration: none;
+}
+
+.btn-blue {
+    background-color: #00509d;
+    color: white;
+    border-radius: 8px !important;
+}
+
+.btn-blue:hover {
+    color: white;
+}
+
+.footer {
+    background-color: #0b1423;
+}
+
+.footer a img {
+    width: 200px;
+}
+
+.text-white {
+    color: white;
+}
+
+.footer h2 {
+    font-weight: 700;
+}
+
+.footer .nav-link {
+    display: block;
+    padding-left: 0;
+    color: #9da6af;
+    padding-bottom: .75rem;
+    transition: .3s !important;
+}
+
+.footer .nav-link:hover {
+    color: white;
+    transform: translateX(10px);
+}
+
+.text-red {
+    color: #f93542 !important;
+}
+
+.footer-icons i {
+    font-size: 2em;
+    color: white;
+}
