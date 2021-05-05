@@ -11,6 +11,7 @@
 nav.navbar {
     display: flex;
     align-content: center;
+    box-shadow: 0 2px 2px -2px rgba(105, 84, 84, 0.2);
 }
 
 nav.navbar .navbar-nav .nav-item .nav-link {
@@ -20,11 +21,6 @@ nav.navbar .navbar-nav .nav-item .nav-link {
 
 nav.navbar .navbar-nav .nav-item .nav-link.active {
  color: #00509d;
-}
-
-nav.navbar {
- box-shadow: 0 2px 2px -2px rgba(105, 84, 84, 0.2);
- height: 80px;
 }
 
 .collapse {
@@ -303,4 +299,59 @@ a.btn-social:hover {
         display: flex;
         justify-content: center;
     }
-  }
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0b1423;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    perspective: 1800px;
+}
+
+.loading img {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.sniper {
+    width: 30px;
+    height: 120px;
+    border-bottom: 3px solid white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -50px;
+    animation: loading-logo 1.2s infinite alternate ease-in-out;
+}
+
+
+@keyframes loading-logo {
+
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(270px);
+    }
+}
+
+.scale {
+    transform: scale(1.5);
+    z-index: -1;
+}
+
+@media (max-width: 1015px) {
+    .scale {
+        transform: scale(1);
+    }
+}
