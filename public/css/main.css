@@ -7,6 +7,10 @@
  font-family: Circular, sans-serif;
 }
 
+*::selection {
+    background-color: #f93542!important;
+    color: white;
+}
 
 nav.navbar {
     display: flex;
@@ -281,6 +285,15 @@ a.btn-social:hover {
 
 .btn-social.color-figma:hover {
     background-color: #ee1d52;
+    color: #fefefe !important;
+}
+
+.btn-social.color-behance {
+    color: #053EFF !important;
+}
+
+.btn-social.color-behance:hover {
+    background-color: #053EFF;
     color: #fefefe !important;
 }
 
