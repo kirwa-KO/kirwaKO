@@ -45,7 +45,7 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
     }
 }
 
-.banner_title h1 .orange {
+.orange {
  color: #fd7028;
 }
 
@@ -56,7 +56,7 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
  margin-top: 1.875rem;
 }
 
-.banner_title h4 .green {
+.green {
     font-size: 1.3em;
     color: #038570;
 }
