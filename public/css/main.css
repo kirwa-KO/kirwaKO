@@ -3,6 +3,12 @@
  src: url('../fonts/Circular_Std_Font.otf');
 }
 
+.header {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 4rem !important;
+}
+
 :root {
  font-family: Circular, sans-serif;
 }
@@ -367,4 +373,9 @@ a.btn-social:hover {
     .scale {
         transform: scale(1);
     }
+}
+
+
+.text-underline {
+	text-decoration: underline;
 }
