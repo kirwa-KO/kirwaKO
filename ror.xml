@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://kirwako.com/</title>
+  <link>http://kirwako.com/</link>
+
+<item>
+     <link>https://kirwako.com/</link>
+     <title>kirwa-KO</title>
+     <description>kirwa-KO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://kirwako.com/portfolio/</link>
+     <title>Portfolio : kirwa-KO</title>
+     <description>Portfolio : kirwa-KO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://kirwako.com/about/</link>
+     <title>about : kirwa-KO</title>
+     <description>about : kirwa-KO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://kirwako.com/contact/</link>
+     <title>Contact : kirwa-KO</title>
+     <description>Contact : kirwa-KO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
